@@ -8,4 +8,4 @@
 - 📫 How to reach me: ...
 - 😄 Pronouns: he/him/God-Emperor
 - ⚡ Fun fact: I have trivia about the origins of the word 'Trivia'
--->
+-->Poop
