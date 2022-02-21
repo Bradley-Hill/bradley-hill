@@ -1,0 +1,102 @@
+@charset "utf-8";
+/*CSS document */
+html{
+  background: url("Spiderman.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+body {
+  color: rgb(255, 255, 255);
+  margin: 0;
+  padding: 0;
+;
+}
+
+.left {
+  position: relative;
+  display: inline-block;
+  top: 50px;
+  left: 150px;
+}
+.left img {
+  width: 140px;
+  clip-path: circle();
+}
+.mid {
+  display: block;
+  width: 50%;
+  left: 400px;
+  margin: 50px auto;
+  color: rgb(16, 10, 41);
+}
+.navbar {
+  display: inline-block;
+}
+
+.navbar li {
+  display: inline-block;
+  font: 300px;
+}
+
+.navbar li a {
+  color: rgb(33, 30, 202);
+  text-decoration: none;
+  padding: 34px 23px;
+}
+.navbar li a:hover,
+.navbar li a:active {
+  text-decoration: underline;
+  color: purple;
+}
+
+.right {
+  position: absolute;
+  display: inline-block;
+  top: 50px;
+  right: 50px;
+}
+.btn {
+  font-family: Verdana, cursive;
+  margin: 0 9px;
+  background-color: black;
+  color: rgb(248, 248, 250);
+  padding: 4px 14px;
+  border: 2px solid grey;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(145, 5, 5);
+}
+
+.container {
+  border: 2px solid rgb(31, 23, 23);
+  margin: 109px 80px;
+  padding: 75px;
+  width: 33%;
+  border-radius: 28px;
+  left: 200px;
+}
+.form-group input {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  display: block;
+  width: 508px;
+  padding: 1px;
+  border: 2px solid black;
+  margin: 11px auto;
+  font-size: 25px;
+  border-radius: 8px;
+}
+
+.container h1 {
+  text-align: center;
+}
+.container button {
+  display: block;
+  width: 74%;
+  margin: 20px auto;
+}
